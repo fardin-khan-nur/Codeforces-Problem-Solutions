@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int T;
+    cin >> T;
+
+    while (T--)
+    {
+        int r;
+        cin >> r;
+        if(r <= 1399) cout << "Division 4" << endl;
+        else if(r >= 1400 && r <= 1599) cout << "Division 3" << endl;
+        else if(r >= 1600 && r <= 1899) cout << "Division 2" << endl;
+        else cout << "Division 1" << endl;
+    }
+    
+    return 0;
+}
