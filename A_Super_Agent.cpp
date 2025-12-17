@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    string x, y, z;
+    cin >> x >> y >> z;
+
+    if (x[0] == z[2] && x[1] == z[1] && x[2] == z[0] && y[0] == y[2]) cout << "YES" << endl;
+    else cout << "NO" << endl;
+
+    return 0;
+}
